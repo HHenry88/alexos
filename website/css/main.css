@@ -505,7 +505,7 @@ footer .copyright {
 }
 
 .text {
-    font-size: 3em;
+    font-size: 1.5em;
     padding: 2em 0;
     position: absolute;
   }
@@ -536,23 +536,47 @@ header .alexos-icon img {
     height: 30px;
     width: 30px;
   }
-  
-footer .container {
-    height: 250px; 
-    display:flex;
-    align-items: flex-end;
-    padding: 0 1.5em 1.5em 0;
-  }
+
+footer .container{
+  height: 7em;
+}
+
 footer .icons {
     width: 5%;
 }
 footer .social {
     display: flex;
     justify-content: flex-end;
-   
 }
+
+/* about page  */
+
+.about-me .picture {
+  background: url('../img/alex.jpg');
+  background-size: contain;
+
 }
-   @media only screen and (min-width: 35em) {
+
+.about-me p  {
+  font-family: 'Special Elite', cursive;
+  font-size: 2em;
+  padding: 1em 0 0 14.5em;
+}
+
+.bio p {
+  font-size: 1.5em;
+  width: 100%;
+  padding: 2em;
+  font-family: 'Slabo 27px', serif;
+  text-align: center;
+}
+
+footer .container{
+  padding: 0;
+  height: 5em;
+}
+
+@media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
 }
 
