@@ -58,16 +58,18 @@
         
     </div> 
     <div class= "search-bar">
-        <input type="text" placeholder="  Search.."> 
+      <input type="text" id="myInput" onkeyup="myFunction()" placeholder=" Search..">
     </div>
   </section>
 
   <section class="for-sale">
     <div class="container">
+      <ul type="none" id="wrapper">
+      <li id="just-be" data-tags="red, blue, yellow, shape, triangle, mutli-color, future, just, be, simple, abstract">
       <div class="prints">
         <img src="../img/just-be.jpg" style="width:100%">
       </div>
-      <div class="info">
+      <div class="info" >
         <p class="title"> "Just Be" </p>
         <p class="misc"> </p>
         <div class="add-to-cart">   
@@ -88,6 +90,8 @@
           </form>            
         </div><!--ends add to cart-->  
       </div><!--ends info-->
+      </li>
+      <li id="explore-dream-discover" data-tags="red, cat">
       <div class="prints">
         <img src="../img/explore-dream-discover.jpg" style="width:100%">
       </div>
@@ -112,6 +116,8 @@
           </form>
         </div><!--ends add to cart-->        
       </div><!--ends info-->
+      </li>
+      <li>
       <div class="prints">
         <img src="../img/day-dreamer.jpg" style="width:100%">
       </div>
@@ -136,6 +142,7 @@
           </form>
         </div><!--ends add to cart-->        
       </div><!--ends info-->
+      </li> 
       <div class="prints">
         <img src="../img/leap-of-faith.jpg" style="width:100%">
       </div>
@@ -208,7 +215,8 @@
           </form>                        
         </div><!--ends add to cart-->        
       </div><!--ends info-->
-    </div><!--ends container-->
+    </ul>
+  </div><!--ends container-->
 </section>
 
   <footer>
@@ -232,6 +240,7 @@
   <script>window.jQuery || document.write('<script src="../js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
   <script src="../js/plugins.js"></script>
   <script src="../js/main.js"></script>
+  <script src="../js/buy.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
